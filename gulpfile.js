@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var coffee = require('gulp-coffee');
 var gutil = require('gulp-util');
-var watch = require('gulp-watch);
+var watch = require('gulp-watch');
 
 gulp.task('coffee', function() {
   gulp.src('./src/*.coffee')
